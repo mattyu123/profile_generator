@@ -5,8 +5,8 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('What do you think of Node.js? ', (answer) => {
-  console.log(`Thank you for your valuable feedback: ${answer}`);
-
-  rl.close();
+rl.question('What is your name?:  ', (answer1) => {
+  rl.question("What's an activity you like to do?: ", (answer2) => {
+    
+  });
 });
